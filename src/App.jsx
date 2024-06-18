@@ -1,10 +1,12 @@
-import Box from '@mui/material/Box'
+import Box from "@mui/material/Box";
+import NavBar from "~/components/header/Navbar";
 
 function App() {
-
   return (
-    <Box></Box>
-  )
+    <Box>
+      <NavBar />
+    </Box>
+  );
 }
 
-export default App
+export default App;
